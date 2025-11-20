@@ -11,3 +11,9 @@ unique_elements = np.unique(array)
 # Print the unique elements
 print("Original array:", array)
 print("Unique elements:", unique_elements)
+
+import numpy as np 
+array = np.array([1, 2, 3, 3, 4, 4, 5, 5, 5, 6])
+uni_ele = np.unique(array)
+print(array)
+print(uni_ele)
